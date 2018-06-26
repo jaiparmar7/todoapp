@@ -1,0 +1,49 @@
+body {
+    padding-top: 3rem;
+  }
+  .starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+  }
+
+.title{
+    text-transform: uppercase;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.undone{
+    text-decoration: none;
+}
+
+.taskInput{
+    width: 150px;
+}
+
+#todoTable{
+    margin-top: 30px;
+}
+
+#todoTable td{
+    padding-right: 15px;
+}
+
+#todoTable tr:nth-child(even) {background-color: #f2f2f2;}
+
+.item{
+    width: 100%;
+    text-align: left;
+}
+
+/* .editing{
+    background-color: 'yellow';
+    min-width: 150;
+    display: 'inline-block';
+    margin: 0;
+    padding: 0;
+    font-size: 15;
+    outline: 0;
+    border: 0;
+} */
